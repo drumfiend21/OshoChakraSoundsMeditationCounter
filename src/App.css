@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: black;
 }
 
 .App-logo {
@@ -14,7 +15,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  gap: 25px;
 }
 
 .App-link {
@@ -35,4 +36,40 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.button-group {
+  flex-direction: row;
+  font-size: 50px;
+}
+
+.badge {
+  font-size: 140px;
+}
+
+.paper {
+  width: 350px;
+  height: 480px;
+  padding-top: 30px;
+  background-color: rgba(0, 0, 0, 0.54);
+}
+
+.title {
+  color: white;
+  vertical-align: middle; 
+  text-align: center; 
+  margin: 5px;
+}
+
+.button-group-spacer {
+  width: 15px;
+  display: inline-block;
+}
+
+.osho-title {
+  width: 120px;
+}
+
+.info {
+  display: flex;
 }

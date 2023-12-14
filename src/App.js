@@ -6,7 +6,6 @@ import AutoModeSharpIcon from '@mui/icons-material/AutoModeSharp';
 import InfoIcon from '@mui/icons-material/Info';
 import Tooltip from '@mui/material/Tooltip';
 import logo from './logo.svg';
-import Osho from './osho.png';
 import './App.css';
 
 const App = () => {
@@ -31,7 +30,7 @@ const App = () => {
     <div className="App">
       <header className="App-header">
         
-          <img src={Osho} className="osho-title"/>
+          <img src="https://booking.osho.com/wp-content/uploads/2020/09/logo.png" className="osho-title"/>
           <h1 className="title">Chakra</h1>
           <h1 className="title">Sounds Meditation</h1>
           <div className="info">
